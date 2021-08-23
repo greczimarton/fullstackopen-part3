@@ -1,0 +1,23 @@
+GET https://infinite-reaches-60855.herokuapp.com/api/persons/
+Accept: application/json
+
+###
+
+GET https://infinite-reaches-60855.herokuapp.com/api/persons/4
+Accept: application/json
+
+###
+
+DELETE https://infinite-reaches-60855.herokuapp.com/api/persons/4
+
+###
+
+POST https://infinite-reaches-60855.herokuapp.com/api/persons
+Content-Type: application/json
+
+{
+  "name": "Dani",
+  "number": "11-11-111111"
+}
+
+
